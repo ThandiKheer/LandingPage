@@ -52,9 +52,10 @@ button{
     border-radius: 10px;
     color: #ffffff;
     font-size: 18px;
-    background: #3498db;
+    background: #3882F6;
     padding: 8px 30px 8px 30px;
     text-decoration: none;
+    border-color: white;
 }
 .main img{
     width: 500px;
@@ -96,7 +97,6 @@ button{
 /* THIRD CONTAINER*/
 
 .third-container{
-    border: solid;
     background-color: #E5E7EB;
     display: flex;
     justify-content: center;
@@ -110,3 +110,35 @@ button{
     padding: 30px;
 
 }
+
+/*FOURTH CONTAINER */
+
+.fourth-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+.main-container{
+    width: 70%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5px;
+    background-color: #3882F6;
+    border-radius: 15px; 
+    color: #E5E7EB; 
+}
+
+/*
+.main-container button{
+    border-radius: 10px;
+    color: #ffffff;
+    font-size: 18px;
+    background: #3882F6;
+    padding: 8px 30px 8px 30px;
+    text-decoration: none;
+    border-color: white;
+}
+*/
