@@ -92,3 +92,21 @@ button{
     font-size: 25px;
     text-align: center;
 }
+
+/* THIRD CONTAINER*/
+
+.third-container{
+    border: solid;
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    padding: 60px 0px 60px 0px;
+    
+}
+.third-container p{
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    padding: 30px;
+
+}
