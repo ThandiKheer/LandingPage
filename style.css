@@ -6,12 +6,10 @@ body{
 
 
     /* FIRST CONTAINER */
-.first-container{
-    
+.first-container{ 
     background-color: #1F2937;
 }
 .header{
-    border: solid red;
     display: flex;
     justify-content: center;
 }
@@ -44,14 +42,11 @@ a{
 }
 
 .main{
-    border: solid black 4px;
     display: flex;
     justify-content: center;
     
-    /*padding: 80px 160px 100px 160px;*/
 }
 .main1-container{
-    border: dotted tomato;
     flex-basis: 90%;
     display: flex;
     flex-wrap: wrap;
@@ -60,7 +55,6 @@ a{
     
 }
 .main-text{
-    border: dotted gold;
     margin-right: auto;
     padding: 20px;
     display: flex;
@@ -87,7 +81,6 @@ button{
 }
 .main1-container img{
     width: 500px;
-    border: solid 5px black;
     max-width: 100%;
     object-fit: contain;
 }
@@ -103,6 +96,7 @@ button{
     align-items: center;
     padding-top: 40px;
     padding-bottom: 80px;
+    padding-left: 40px;
 }
 .second-container h1{
     padding-bottom: 30px;
@@ -120,7 +114,6 @@ button{
     height: 200px;
     width: 200px;
     border-radius: 10px;
-    border: solid 4px #3498db;
 }
 .img-and-text p{
     font-size: 25px;
